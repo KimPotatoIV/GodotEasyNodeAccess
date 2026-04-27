@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://bgi5mfngnqf1n"]
+
+[ext_resource type="Script" uid="uid://icg4kblfyggf" path="res://main/main.gd" id="1_53q0u"]
+
+[node name="Main" type="Node2D" unique_id=222602102]
+script = ExtResource("1_53q0u")
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=383237023]
+
+[node name="MarginContainer" type="MarginContainer" parent="UI" unique_id=1697632803]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/MarginContainer" unique_id=1906646833]
+layout_mode = 2
+alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="UI/MarginContainer/VBoxContainer" unique_id=1716092500]
+layout_mode = 2
+alignment = 1
+
+[node name="TitleLabel" type="Label" parent="UI/MarginContainer/VBoxContainer/HBoxContainer" unique_id=636037987]
+unique_name_in_owner = true
+layout_mode = 2
